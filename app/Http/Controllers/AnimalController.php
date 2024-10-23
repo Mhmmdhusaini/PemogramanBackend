@@ -11,10 +11,10 @@ class AnimalController extends Controller
     public $animals;
     public $name;
 
-    // Constructor untuk mengisi data awal animals
+    
     public function __construct()
     {
-        $this->animals = ['kambing', 'kucing', 'kerbau'];
+        $this->animals = ['Kucing', 'Ayam', 'Ikan'];
     }
 
     // Method untuk menampilkan seluruh data animals
